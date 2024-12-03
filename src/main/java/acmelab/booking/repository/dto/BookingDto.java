@@ -1,4 +1,4 @@
-package acmelab.booking.repository;
+package acmelab.booking.repository.dto;
 
 import acmelab.booking.model.BookingStatus;
 import acmelab.booking.model.Room;

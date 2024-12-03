@@ -1,4 +1,14 @@
 package acmelab.booking.model;
 
-public class Booking {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Table(name = "booking")
+@Getter
+@Setter
+public class Booking extends BookingBase {
+
 }
